@@ -281,3 +281,501 @@ D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 418
 "GET /about/ HTTP/1.1" 200 655
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2441
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 655
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in index
+    return render(request, 'myproject/myapp/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myproject/myapp/index.html
+"GET / HTTP/1.1" 500 83068
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in index
+    return render(request, 'myapp/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET / HTTP/1.1" 500 82928
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 2656
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+Internal Server Error: /clients_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 13, in clients_view
+    res_str = '<br>'.join([str(client) for client in clients])
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_client
+"GET /clients_view/ HTTP/1.1" 500 128902
+Not Found: /clients_view/ignat
+"GET /clients_view/ignat HTTP/1.1" 404 2677
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+Internal Server Error: /clients_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 13, in clients_view
+    res_str = '<br>'.join([str(client) for client in clients])
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_client
+"GET /clients_view/ HTTP/1.1" 500 128902
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+"GET /products_view HTTP/1.1" 301 0
+Internal Server Error: /products_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_product
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 21, in products_view
+    res_str = '<br>'.join([str(product) for product in products])
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_product
+"GET /products_view/ HTTP/1.1" 500 129202
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+"GET /clients_view HTTP/1.1" 301 0
+Internal Server Error: /clients_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 13, in clients_view
+    res_str = '<br>'.join([str(client) for client in clients])
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_client
+"GET /clients_view/ HTTP/1.1" 500 128902
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+"GET /orders_view HTTP/1.1" 301 0
+Internal Server Error: /orders_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in orders_view
+    for order in orders:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_order
+"GET /orders_view/ HTTP/1.1" 500 127915
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /orders_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in orders_view
+    for order in orders:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_order
+"GET /orders_view/ HTTP/1.1" 500 128052
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+Internal Server Error: /orders_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in orders_view
+    for order in orders:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_order
+"GET /orders_view/ HTTP/1.1" 500 128052
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /
+"GET / HTTP/1.1" 404 2605
+Internal Server Error: /clients_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_client
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 13, in clients_view
+    res_str = '<br>'.join([str(client) for client in clients])
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_client
+"GET /clients_view/ HTTP/1.1" 500 128902
+Internal Server Error: /orders_view/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: myapp_order
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 29, in orders_view
+    for order in orders:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 400, in __iter__
+    self._fetch_all()
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 122, in execute
+    return super().execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 329, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: myapp_order
+"GET /orders_view/ HTTP/1.1" 500 127915
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+Not Found: /index
+"GET /index HTTP/1.1" 404 2423
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 655
+Not Found: /ignat
+"GET /ignat HTTP/1.1" 404 2423
+D:\Учеба_GeekBrains\Django\myproject\myapp\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp2\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

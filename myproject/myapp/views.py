@@ -26,6 +26,7 @@ def index(request):
         </html>
         """
     return HttpResponse(first_page)
+    # return render(request, 'myapp/index.html')
 
 
 def about(request):
