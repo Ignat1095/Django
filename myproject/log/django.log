@@ -1,0 +1,283 @@
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 13
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 27
+Not Found: /prefox
+"GET /prefox HTTP/1.1" 404 2426
+Not Found: /prefix
+"GET /prefix HTTP/1.1" 404 2426
+"GET / HTTP/1.1" 200 13
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 297
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 326
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 336
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 353
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 352
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 352
+"GET /about/ HTTP/1.1" 200 27
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 352
+"GET /about/ HTTP/1.1" 200 8
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'main/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: main/index.html
+"GET / HTTP/1.1" 500 81648
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, './index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./index.html
+"GET / HTTP/1.1" 500 81598
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 81578
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, '/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /index.html
+"GET / HTTP/1.1" 500 80890
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'myapp/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET / HTTP/1.1" 500 81662
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'myapp/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myapp/index.html
+"GET / HTTP/1.1" 500 81662
+Not Found: /gen204
+"GET /gen204?invalidResponse=q=https%3A%2F%2Ftranslate.googleapis.com%2Ftranslate_a%2Fsingle%3Fclient%3Dgtx%26s,ql=161,r=,rl=0 HTTP/1.1" 404 2540
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 81578
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, '/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /index.html
+"GET / HTTP/1.1" 500 80890
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, '/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: /index.html
+"GET / HTTP/1.1" 500 80890
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'myproject/myapp/index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: myproject/myapp/index.html
+"GET / HTTP/1.1" 500 81802
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 81578
+Watching for file changes with StatReloader
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp\views.py", line 10, in index
+    return render(request, 'index.html')
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: index.html
+"GET / HTTP/1.1" 500 81578
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 352
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+"GET /about/ HTTP/1.1" 200 708
+D:\Учеба_GeekBrains\Django\myproject\myapp\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+"GET /about/ HTTP/1.1" 200 655
