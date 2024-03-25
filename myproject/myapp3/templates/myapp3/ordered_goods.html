@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block content %}
+    <h2>{{ title }}</h2>
+    {% for product in products %}
+        <p>{{ product}}: {{ product.created_timestamp }}</p>
+<!--   Здесь сделать вывод всех имеющихся продуктов     -->
+    {% endfor %}
+
+{% endblock %}

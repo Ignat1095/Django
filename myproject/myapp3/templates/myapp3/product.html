@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% if product.image %}
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+    {% endif %}
+    <h3>{{ product.name }} id: {{ product.id }}</h3>
+    <p>Цена: <strong>{{ product.price }}</strong></p>
+    <p>{{ product.description }}</p>
+
+{% endblock %}

@@ -7,6 +7,7 @@ from .models import User, Order
 def index(request):
     return render(request, "myapp2/index.html")
 
+
 def basket(request, user_id):
     products = []
     user = User.objects.filter(pk=user_id).first()
