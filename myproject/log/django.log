@@ -1069,3 +1069,24 @@ django.template.exceptions.TemplateDoesNotExist: homeworks_app3/base.html
 "GET / HTTP/1.1" 500 133274
 Watching for file changes with StatReloader
 "GET / HTTP/1.1" 200 180
+"GET / HTTP/1.1" 200 180
+D:\Учеба_GeekBrains\Django\myproject\myapp3\views.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 180
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
+Watching for file changes with StatReloader

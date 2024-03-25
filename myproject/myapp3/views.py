@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from django.shortcuts import render
 
-from myapp3.models import Order, Product, OrderItem, Client
+from .models import Order, Product, OrderItem, Client
 
 
 def index(request):
