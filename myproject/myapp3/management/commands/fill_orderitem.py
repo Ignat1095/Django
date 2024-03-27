@@ -1,7 +1,7 @@
 from random import choices, randint
 
 from django.core.management.base import BaseCommand
-from homeworks_app3.models import Order, OrderItem, Product
+from myapp3.models import Order, OrderItem, Product
 
 
 class Command(BaseCommand):

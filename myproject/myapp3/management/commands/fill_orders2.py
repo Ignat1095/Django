@@ -1,5 +1,5 @@
 from django.core.management.base import BaseCommand
-from homeworks_app3.models import Order, Client
+from myapp3.models import Order, Client
 
 
 class Command(BaseCommand):

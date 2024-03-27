@@ -1,7 +1,7 @@
 from random import uniform, randint
 
 from django.core.management.base import BaseCommand
-from homeworks_app3.models import Product
+from myapp3.models import Product
 
 
 class Command(BaseCommand):

@@ -47,7 +47,6 @@ class Product(models.Model):
         return f'{self.name} Количество - {self.quantity}'
 
 
-
 class Order(models.Model):
     client = models.ForeignKey(to=Client, on_delete=models.CASCADE, verbose_name='Клиент')
     created_timestamp = models.DateTimeField(auto_now_add=True, verbose_name="Дата создания заказа")
