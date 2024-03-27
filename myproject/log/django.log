@@ -1090,3 +1090,612 @@ D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
 Watching for file changes with StatReloader
 D:\Учеба_GeekBrains\Django\myproject\myapp3\urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 180
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 3649
+Not Found: /add_product
+"GET /add_product HTTP/1.1" 404 3649
+"GET /view_orders HTTP/1.1" 301 0
+Internal Server Error: /view_orders/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp3\views.py", line 25, in view_orders
+    return render(request, 'myapp3/get_orders.html', {'title': f'Заказы', 'orders': Order.objects.all()})
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /view_orders/ HTTP/1.1" 500 133470
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 180
+Not Found: /add_product/
+"GET /add_product/ HTTP/1.1" 404 3652
+Not Found: /add_product
+"GET /add_product HTTP/1.1" 404 3649
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 180
+Not Found: /add_product
+"GET /add_product HTTP/1.1" 404 3649
+Not Found: /change_product
+"GET /change_product HTTP/1.1" 404 3658
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /myapp4/user/add
+"GET /myapp4/user/add HTTP/1.1" 404 3661
+D:\Учеба_GeekBrains\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 655
+Not Found: /add_product/user/add
+"GET /add_product/user/add HTTP/1.1" 404 2678
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+"GET /les4/add_product HTTP/1.1" 301 0
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136113
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+"GET / HTTP/1.1" 200 418
+Not Found: /add
+"GET /add HTTP/1.1" 404 2627
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+Not Found: /les4/ add_product/арбуз
+"GET /les4/%20add_product/%D0%B0%D1%80%D0%B1%D1%83%D0%B7 HTTP/1.1" 404 3206
+Not Found: /les4/ add_product/["Арбуз"]
+"GET /les4/%20add_product/[%22%D0%90%D1%80%D0%B1%D1%83%D0%B7%22] HTTP/1.1" 404 3246
+Not Found: /les4/ add_product/["Арбуз"]
+"GET /les4/%20add_product/[%22%D0%90%D1%80%D0%B1%D1%83%D0%B7%22] HTTP/1.1" 404 3246
+Not Found: /les4/ change_product/1/
+"GET /les4/%20change_product/1/ HTTP/1.1" 404 3171
+"GET /admin HTTP/1.1" 301 0
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"GET /static/admin/css/login.css HTTP/1.1" 200 958
+"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+"GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+"GET /static/admin/css/base.css HTTP/1.1" 200 21544
+"GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+"POST /admin/login/?next=/admin/ HTTP/1.1" 200 4323
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 302 0
+"GET /admin/login/?next=/admin/ HTTP/1.1" 200 4158
+"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+"GET /admin/ HTTP/1.1" 200 5533
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/auth/group/ HTTP/1.1" 200 7242
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/auth/user/ HTTP/1.1" 200 10748
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET / HTTP/1.1" 200 418
+"GET / HTTP/1.1" 200 418
+Not Found: / f
+"GET /%20f HTTP/1.1" 404 2626
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+D:\Учеба_GeekBrains\Django\myproject\myproject\urls.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136254
+"GET /les3 HTTP/1.1" 301 0
+"GET /les3/ HTTP/1.1" 200 180
+Not Found: /les4
+"GET /les4 HTTP/1.1" 404 2630
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136254
+Not Found: /les4/ add_product/
+"GET /les4/%20add_product/ HTTP/1.1" 404 3156
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136254
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /les4/add_product HTTP/1.1" 301 0
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136254
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136391
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136457
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 418
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136457
+Internal Server Error: /les4/add_product/
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 134, in render
+    compiled_parent = self.get_parent(context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 131, in get_parent
+    return self.find_template(parent, context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader_tags.py", line 109, in find_template
+    template, origin = context.template.engine.find_template(
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\engine.py", line 163, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+django.template.exceptions.TemplateDoesNotExist: base.html
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Учеба_GeekBrains\Django\myproject\myapp4\views.py", line 41, in add_product
+    return render(request, 'myapp4/add_product_form.html', context=context)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 63, in render
+    reraise(exc, self.backend)
+  File "D:\Учеба_GeekBrains\Django\venv\lib\site-packages\django\template\backends\django.py", line 84, in reraise
+    raise new from exc
+django.template.exceptions.TemplateDoesNotExist: base.html
+"GET /les4/add_product/ HTTP/1.1" 500 136457
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 3115
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+"GET /admin/ HTTP/1.1" 200 5533
+"GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+"GET /admin/auth/group/ HTTP/1.1" 200 7242
+"GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+"GET /static/admin/js/core.js HTTP/1.1" 200 6208
+"GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+"GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+"GET /static/admin/js/filters.js HTTP/1.1" 200 978
+"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+"GET /admin/auth/user/ HTTP/1.1" 200 10748
+"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+"GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 23227
+"GET /admin/jsi18n/ HTTP/1.1" 200 3342
+"GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+"GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+"GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+"GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15492
+"GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+"GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+"GET /static/admin/css/widgets.css HTTP/1.1" 200 11800
+"GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+"GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+"GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+"GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+"GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+"GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+"GET / HTTP/1.1" 200 418
+"GET /admin/auth/user/1/change/ HTTP/1.1" 200 23227
+"GET / HTTP/1.1" 200 418
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 655

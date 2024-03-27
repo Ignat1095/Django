@@ -1,5 +1,5 @@
 """
-URL configuration for myproject project.
+URL configuration for homeworks project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.0/topics/http/urls/
@@ -14,16 +14,18 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import include, path
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-
-    path('', include('myapp.urls')),
-
-
-
-    path('les3/', include('myapp3.urls', namespace='myapp3')),
-    path('les4/', include('myapp4.urls', namespace='myapp4')),
+    path('hom1/', include('homeworks_app1.urls', namespace='homeworks_app1')),
+    path('hom2/', include('homeworks_app2.urls', namespace='homeworks_app2')),
+    path('', include('homeworks_app3.urls', namespace='homeworks_app3')),
+    path('hom4/', include('homeworks_app4.urls', namespace='homeworks_app4')),
+    path('hom5/', include('homeworks_app5.urls', namespace='homeworks_app5')),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
