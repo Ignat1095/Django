@@ -1828,3 +1828,103 @@ Watching for file changes with StatReloader
 "GET /admin/myapp3/client/1/history/ HTTP/1.1" 200 5979
 "GET /admin/myapp3/client/1/change/ HTTP/1.1" 200 9735
 "GET /admin/myapp3/client/ HTTP/1.1" 200 9164
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9393
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 200 12621
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 200 13578
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 200 43
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 200 4527
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 11756
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=HistoryPanel HTTP/1.1" 200 3848
+"GET /static/debug_toolbar/js/history.js HTTP/1.1" 200 3515
+"GET /__debug__/history_sidebar/?store_id=3672fe3cf93e478bac7db161667199db&exclude_history=True HTTP/1.1" 200 7551
+"GET /__debug__/history_sidebar/?store_id=178af942428346deb5149092ec605a71&exclude_history=True HTTP/1.1" 200 7541
+"GET /__debug__/history_sidebar/?store_id=3672fe3cf93e478bac7db161667199db&exclude_history=True HTTP/1.1" 200 7551
+"GET /__debug__/history_sidebar/?store_id=178af942428346deb5149092ec605a71&exclude_history=True HTTP/1.1" 200 7541
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=VersionsPanel HTTP/1.1" 200 621
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=SettingsPanel HTTP/1.1" 200 26164
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=HeadersPanel HTTP/1.1" 200 4187
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=RequestPanel HTTP/1.1" 200 2065
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=SQLPanel HTTP/1.1" 200 115
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=StaticFilesPanel HTTP/1.1" 200 34879
+"GET /__debug__/render_panel/?store_id=178af942428346deb5149092ec605a71&panel_id=TemplatesPanel HTTP/1.1" 200 167
+"GET /about HTTP/1.1" 301 0
+"GET /about/ HTTP/1.1" 200 9634
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=68d5d96f32a6452c8d2b7f9f5993d316&panel_id=TemplatesPanel HTTP/1.1" 200 167
+"GET /__debug__/render_panel/?store_id=68d5d96f32a6452c8d2b7f9f5993d316&panel_id=CachePanel HTTP/1.1" 200 1413
+"GET /__debug__/render_panel/?store_id=68d5d96f32a6452c8d2b7f9f5993d316&panel_id=SignalsPanel HTTP/1.1" 200 2152
+Not Found: /about/add
+"GET /about/add HTTP/1.1" 404 12151
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=2c5d2918f8e14b788c5869c07b1f12e3&panel_id=ProfilingPanel HTTP/1.1" 200 56057
+Not Found: /about/les3
+"GET /about/les3 HTTP/1.1" 404 12155
+Not Found: /about/les3/
+"GET /about/les3/ HTTP/1.1" 404 12159
+"GET /les3/ HTTP/1.1" 200 9598
+"GET /les3/ HTTP/1.1" 200 9598
+"GET /__debug__/render_panel/?store_id=c267f5ddce67454486ff249c2f090365&panel_id=ProfilingPanel HTTP/1.1" 200 38580
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9795
+"GET /static/debug_toolbar/css/toolbar.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/toolbar.js HTTP/1.1" 304 0
+"GET /static/debug_toolbar/css/print.css HTTP/1.1" 304 0
+"GET /static/debug_toolbar/js/utils.js HTTP/1.1" 304 0
+"GET /__debug__/render_panel/?store_id=51e3b64e04c743c89736e28c5360766c&panel_id=SignalsPanel HTTP/1.1" 200 2107
+"GET /about HTTP/1.1" 200 9945
+"GET /static/debug_toolbar/js/redirect.js HTTP/1.1" 200 48
+"GET /about HTTP/1.1" 200 9945
+Not Found: /ab/
+"GET /ab/ HTTP/1.1" 404 12127
+Not Found: /1
+"GET /1 HTTP/1.1" 404 12119
+Not Found: /name=2
+"GET /name=2 HTTP/1.1" 404 12143
+Not Found: /les4/
+"GET /les4/ HTTP/1.1" 404 12617
+Not Found: /les4/ add_product/ banana
+"GET /les4/%20add_product/%20banana HTTP/1.1" 404 12705
+Not Found: /les4/ add_product/"banana"
+"GET /les4/%20add_product/%22banana%22 HTTP/1.1" 404 12733
+D:\Учеба_GeekBrains\Django\myproject\myapp4\models.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 9795
+Not Found: /g
+"GET /g HTTP/1.1" 404 12119
+"GET /les3/ HTTP/1.1" 200 9598
+Not Found: /les3/c
+"GET /les3/c HTTP/1.1" 404 13610
+Not Found: /les3/ view_orders/
+"GET /les3/%20view_orders/ HTTP/1.1" 404 13662
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Учеба_GeekBrains\Django\myproject\myproject\settings.py changed, reloading.
+Watching for file changes with StatReloader
